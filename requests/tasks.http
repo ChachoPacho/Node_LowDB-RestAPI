@@ -1,0 +1,30 @@
+@apiTasks = http://localhost:3000/tasks
+
+GET {{apiTasks}}
+###
+
+GET {{apiTasks}}/308ca34f-a8d1-4f5d-a672-0deeb45348fe
+###
+
+
+POST {{apiTasks}}
+Content-Type: application/json
+
+{
+    "title": "Tarea número 4",
+    "description": "other simple task"
+}
+###
+
+
+DELETE {{apiTasks}}/1a22637e-a8af-4f6e-bd5f-2ab700f6d972
+###
+
+
+PUT {{apiTasks}}/82aa1b62-c214-4eb9-8e30-946428481e97
+Content-Type: application/json
+
+{
+    "title": "Ir al Cine",
+    "description": "Comprar entradas, comida y demás. Miercoles, 22:15"
+}

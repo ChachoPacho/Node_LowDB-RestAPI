@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": "484f633a-9388-431b-86c3-20afb940e248",
+      "title": "Tarea número 4",
+      "description": "other simple task"
+    },
+    {
+      "id": "82aa1b62-c214-4eb9-8e30-946428481e97",
+      "title": "Ir al Cine",
+      "description": "Comprar entradas, comida y demás. Miercoles, 22:15"
+    },
+    {
+      "id": "e468a4e2-fca2-45fd-b7bc-40ff6858f896",
+      "title": "Tarea número 4",
+      "description": "other simple task"
+    }
+  ]
+}
